@@ -1,0 +1,173 @@
+<resources>
+    <string name="app_name">EMI Pulse</string>
+    <string name="tagline">Smart Loan &amp; Amortization</string>
+
+    <!-- Navigation -->
+    <string name="nav_calculator">Calculator</string>
+    <string name="nav_schedule">Schedule</string>
+    <string name="nav_compare">Compare</string>
+    <string name="nav_eligibility">Eligibility</string>
+    <string name="nav_history">History</string>
+
+    <!-- Top bar -->
+    <string name="cd_currency_selector">Select currency</string>
+    <string name="cd_theme_toggle">Toggle color theme</string>
+    <string name="cd_switch_to_dark">Switch to dark mode</string>
+    <string name="cd_switch_to_light">Switch to light mode</string>
+    <string name="theme_appearance_label">Appearance</string>
+    <string name="theme_mode_auto">Auto</string>
+    <string name="theme_mode_dark">Dark</string>
+    <string name="theme_mode_light">Light</string>
+    <string name="theme_option_system">System Default</string>
+    <string name="theme_option_light">Light Mode</string>
+    <string name="theme_option_dark">Dark Mode</string>
+    <string name="schedule_chart_trend">Yearly Trend</string>
+    <string name="schedule_chart_pie">Pie Summary</string>
+    <string name="cd_reset_defaults">Reset to preset defaults</string>
+    <string name="currency_dialog_title">Choose Currency</string>
+    <string name="currency_device_locale_toggle">Use device locale separators</string>
+    <string name="currency_device_locale_desc">Follow system decimal &amp; grouping format</string>
+    <string name="currency_dialog_close">Close</string>
+
+    <!-- Presets -->
+    <string name="preset_home">Home Loan</string>
+    <string name="preset_car">Car Loan</string>
+    <string name="preset_personal">Personal</string>
+    <string name="preset_education">Education</string>
+
+    <!-- Hero summary -->
+    <string name="monthly_emi">Monthly EMI</string>
+    <string name="principal_label">Principal</string>
+    <string name="interest_label">Total Interest</string>
+    <string name="total_payable_label">Total Payable</string>
+    <string name="interest_share_label">Interest Share</string>
+    <string name="save_session">Save</string>
+
+    <!-- Loan Breakdown Pie Chart -->
+    <string name="loan_breakdown_title">Loan Breakdown</string>
+    <string name="loan_breakdown_subtitle">Total principal vs. interest over %1$s</string>
+    <string name="loan_breakdown_principal_paid">Total Principal Paid</string>
+    <string name="loan_breakdown_interest_paid">Total Interest Paid</string>
+    <string name="loan_breakdown_empty">Enter a loan amount above 0 to view the principal vs. interest breakdown.</string>
+
+    <!-- Save & History -->
+    <string name="save_dialog_title">Save Calculation</string>
+    <string name="save_dialog_label_hint">Session name</string>
+    <string name="save_dialog_confirm">Save</string>
+    <string name="save_dialog_cancel">Cancel</string>
+    <string name="saved_snackbar_message">Calculation saved to History</string>
+    <string name="saved_snackbar_action">View</string>
+    <string name="history_title">Saved Calculations</string>
+    <string name="history_clear_all">Clear All</string>
+    <string name="history_clear_confirm_title">Clear all saved sessions?</string>
+    <string name="history_clear_confirm_body">This will permanently remove all saved EMI calculations from this device.</string>
+    <string name="history_load_action">Load</string>
+    <string name="history_delete_cd">Delete saved calculation</string>
+    <string name="history_empty_title">No saved calculations yet</string>
+    <string name="history_empty_subtitle">Tap Save on any EMI calculation to bookmark loan scenarios for quick reference.</string>
+    <string name="history_go_calculator">Go to Calculator</string>
+
+    <!-- Inputs -->
+    <string name="loan_amount">Loan Amount</string>
+    <string name="interest_rate">Interest Rate (% p.a.)</string>
+    <string name="interest_toggle_label">Include Interest</string>
+    <string name="interest_toggle_free_badge">0% Interest-Free</string>
+    <string name="interest_toggle_free_desc">Principal-only equal monthly installments</string>
+    <string name="loan_tenure">Loan Tenure</string>
+    <string name="years_unit">Years</string>
+    <string name="months_unit">Months</string>
+
+    <!-- Prepayment -->
+    <string name="prepayment_title">Prepayment Impact</string>
+    <string name="prepayment_subtitle">See how extra payments cut interest &amp; tenure</string>
+    <string name="prepayment_none">Off</string>
+    <string name="prepayment_monthly">Monthly Extra</string>
+    <string name="prepayment_yearly">Yearly Lump Sum</string>
+    <string name="extra_payment_amount">Extra Payment</string>
+    <string name="interest_saved">Interest Saved</string>
+    <string name="tenure_reduced">Tenure Cut</string>
+    <string name="new_tenure">New Tenure</string>
+
+    <!-- Schedule -->
+    <string name="schedule_yearly">Yearly</string>
+    <string name="schedule_monthly">Monthly</string>
+    <string name="schedule_chart_title">Principal vs Interest Over Time</string>
+    <string name="schedule_col_period">Period</string>
+    <string name="schedule_col_principal">Principal</string>
+    <string name="schedule_col_interest">Interest</string>
+    <string name="schedule_col_balance">Balance</string>
+    <string name="schedule_empty">Enter a loan amount above 0 to view the amortization schedule.</string>
+    <string name="export_pdf_button">Export PDF</string>
+    <string name="export_pdf_title">Export Amortization PDF</string>
+    <string name="export_pdf_subtitle">Choose how to share, save, or print your loan schedule</string>
+    <string name="export_pdf_share">Share PDF</string>
+    <string name="export_pdf_share_desc">Send via email, messaging, or Drive</string>
+    <string name="export_pdf_save">Save to Device</string>
+    <string name="export_pdf_save_desc">Pick a folder in Files or Downloads</string>
+    <string name="export_pdf_print">Print Schedule</string>
+    <string name="export_pdf_print_desc">Send directly to a printer or system PDF</string>
+    <string name="export_pdf_saved_msg">PDF saved successfully</string>
+    <string name="export_pdf_error_msg">Could not export PDF. Please try again.</string>
+
+    <!-- Compare -->
+    <string name="compare_loan_a">Loan A</string>
+    <string name="compare_loan_b">Loan B</string>
+    <string name="compare_use_current">Use Current</string>
+    <string name="compare_processing_fee">Processing Fee (%)</string>
+    <string name="compare_verdict_cheaper">%1$s saves you %2$s overall</string>
+    <string name="compare_verdict_equal">Both loans cost the same overall</string>
+    <string name="compare_emi_diff">EMI Difference: %1$s / mo</string>
+    <string name="compare_breakdown_title">Side-by-Side Visual Bars</string>
+    <string name="compare_table_title">Comparison Table</string>
+    <string name="compare_col_metric">Metric</string>
+    <string name="compare_col_diff">Diff</string>
+    <string name="compare_swap_loans">Swap A &amp; B</string>
+    <string name="compare_fee_label">Processing Fee</string>
+    <string name="compare_total_cost">Total Cost (Principal + Interest + Fee)</string>
+
+    <!-- Eligibility -->
+    <string name="eligibility_max_loan">Max Affordable Loan</string>
+    <string name="eligibility_affordable_emi">Max New EMI</string>
+    <string name="eligibility_dti_cap">DTI Limit</string>
+    <string name="eligibility_post_dti">Post-Loan DTI</string>
+    <string name="eligibility_apply_cta">Use in EMI Calculator</string>
+    <string name="eligibility_dti_meter_title">Monthly Income &amp; DTI Allocation</string>
+    <string name="eligibility_existing_debt">Existing EMIs</string>
+    <string name="eligibility_new_emi">Available EMI</string>
+    <string name="eligibility_free_income">Remaining</string>
+    <string name="eligibility_monthly_income">Monthly Income (Net/Gross)</string>
+    <string name="eligibility_liabilities">Existing Monthly Liabilities</string>
+    <string name="eligibility_dti_ratio_title">Debt-to-Income (DTI) Ratio</string>
+    <string name="eligibility_dti_36">36% Safe</string>
+    <string name="eligibility_dti_43">43% Standard</string>
+    <string name="eligibility_dti_50">50% Max</string>
+    <string name="eligibility_exceeded_msg">Existing liabilities meet or exceed your selected DTI limit. Reduce liabilities or raise the DTI cap.</string>
+    <string name="eligibility_terms_title">Loan Tenure &amp; Interest</string>
+    <string name="eligibility_total_interest_hint">Est. Interest Over Tenure</string>
+
+    <!-- Share & History Search -->
+    <string name="share_summary">Share</string>
+    <string name="share_quote_chooser">Share Loan Quote</string>
+    <string name="share_compare_chooser">Share Comparison</string>
+    <string name="history_search_hint">Search saved calculations…</string>
+    <string name="history_filter_all">All</string>
+    <string name="history_no_match">No saved calculations match your filter.</string>
+
+    <!-- CSV Export & Milestones -->
+    <string name="export_csv_button">CSV</string>
+    <string name="export_csv_full_button">Export CSV</string>
+    <string name="export_csv_title">Export to CSV</string>
+    <string name="export_csv_schedule_subtitle">Save or share your amortization schedule for Excel or Sheets</string>
+    <string name="export_csv_compare_subtitle">Save or share your Loan A vs. Loan B comparison table</string>
+    <string name="export_csv_share">Share CSV</string>
+    <string name="export_csv_share_desc">Send .csv file via email, messaging, or Drive</string>
+    <string name="export_csv_save">Save CSV to Device</string>
+    <string name="export_csv_save_desc">Save spreadsheet to Files or Downloads</string>
+    <string name="export_csv_saved_msg">CSV saved successfully</string>
+    <string name="export_csv_error_msg">Could not export CSV. Please try again.</string>
+    <string name="schedule_milestone_halfway">50%% Principal Paid: Year %1$d (Month %2$d)</string>
+    <string name="share_eligibility_chooser">Share Eligibility Summary</string>
+    <string name="history_sort_newest">Newest</string>
+    <string name="history_sort_emi">Lowest EMI</string>
+    <string name="history_sort_principal">Largest Loan</string>
+</resources>

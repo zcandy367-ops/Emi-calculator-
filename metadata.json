@@ -1,0 +1,6 @@
+{
+  "name": "EMI Pulse",
+  "description": "Precision EMI calculator with live amortization schedule, prepayment impact simulator, and side-by-side loan comparison.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
